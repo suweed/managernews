@@ -1,0 +1,113 @@
+/* Navigation */
+.navigation {
+    background-color: #611232;
+}
+
+.navigation .navbar .navbar-nav li > a {
+    color: #969696;
+}
+
+.navigation .navbar .navbar-nav li.active > a {
+    color: #fff;
+}
+
+/* Feature */
+.feature {
+    padding: 80px;
+}
+.feature .container {
+    padding: 1%;
+    background-color: #0000009e;
+}
+.feature .container .row {
+    padding: 1%;
+}
+.feature .btn-view-works {
+    background: #611232;
+}
+
+@media (max-width: 768px) {
+    .feature {
+        background: url(../images/tramitesGente.jpg) !important;
+        padding: 80px 0;
+    }
+}
+
+/* Service */
+.service .service-item i {
+    color: #655E7A;
+}
+
+.service .service-item i:hover {
+    color: #611232;
+    cursor: pointer;
+}
+
+/* Buttons */
+.btn-main, .btn-small, .btn-transparent {
+    background: #611232;
+}
+.btn-main:hover, .btn-small:hover, .btn-transparent:hover {
+    background: #4d1028;
+}
+.btn-primary {
+    background-color: #611232;
+    border-color: #611232;
+}
+
+.btn-primary:hover {
+    background-color: #4d1028;
+    border-color: #4d1028;
+}
+
+.btn-primary:active {
+    background-color: #3f0d21 !important;
+    border-color: #3f0d21 !important;
+}
+
+.btn-link {
+    color: #611232;
+}
+
+.btn-link:hover {
+    color: #4d1028;
+}
+
+.btn-link:active {
+    color: #3f0d21 !important;
+}
+
+/** Page News */
+.news-backgroud {
+    background: url(../images/gobiernoEdificio.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.page-wrapper .container .back-list-news a:hover {
+    color: #611232;
+}
+
+/** Paginator */
+.page-link {
+    color: #611232;
+}
+.page-link:hover {
+    color: #4d1028;
+}
+.page-item.active .page-link {
+    background-color: #611232;
+    border-color: #611232;
+}
+
+/** Other News */
+.widget.widget-latest-post .media .media-heading a:hover {
+    color: #611232;
+}
+
+/* Footer */
+.footer {
+    background-color: #611232;
+}

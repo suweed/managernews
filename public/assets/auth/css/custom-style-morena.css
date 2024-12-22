@@ -1,0 +1,37 @@
+.btn-gradient-primary {
+    background: -webkit-gradient(linear, left top, right top, from(#611232), to(#310919));
+    background: linear-gradient(to right, #611232, #310919);
+}
+.btn-gradient-primary:not([disabled]):not(.disabled):active,
+.btn-gradient-primary:not([disabled]):not(.disabled).active,
+.show > .btn-gradient-primary.dropdown-toggle {
+      background: -webkit-gradient(linear, left top, right top, from(#611232), to(#310919));
+      background: linear-gradient(to right, #611232, #310919);
+}
+
+.breadcrumb .breadcrumb-item a {
+    color: #611232;
+}
+
+/* menu sider bar */
+
+.sidebar .nav .nav-item.active > .nav-link .menu-title {
+    color: #611232;
+}
+.sidebar .nav .nav-item.active > .nav-link i {
+    color: #611232;
+}
+.sidebar .nav.sub-menu .nav-item .nav-link.active {
+    color: #611232;
+}
+.sidebar .nav.sub-menu .nav-item .nav-link:before {
+    color: #611232;
+}
+
+/** table */
+#news-table .check-status-column .mdi-check {
+    color: green;
+}
+#news-table .check-status-column .mdi-close {
+    color: red;
+}
