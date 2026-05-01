@@ -18,7 +18,13 @@ class Post extends Model
         'category_id',
         'is_published',
         'file',
+        'is_slider',
+        'is_news_slider',
+        'slider_gallery_id',
+        'slider_position_x',
+        'slider_position_y',
         'description',
+        'banner_short_description',
     ];
 
     public function gallery() {
@@ -27,5 +33,9 @@ class Post extends Model
 
     public function category() {
         return $this->belongsTo(Category::class);
+    }
+
+    public function sliderGallery() {
+        return $this->belongsTo(Gallery::class, 'slider_gallery_id');
     }
 }
